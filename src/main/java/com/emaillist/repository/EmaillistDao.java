@@ -26,7 +26,7 @@ public class EmaillistDao {
 
 	public List<EmaillistVo> getList() {
 		
-		List<EmaillistVo> list=sqlSession.selectList("emaillist.getList2");
+		List<EmaillistVo> list=sqlSession.selectList("emaillist.getList");
 		return list;
 		
 	}
